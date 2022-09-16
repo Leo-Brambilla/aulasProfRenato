@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /**
+    * Tipos primitivos
+    * Variáveis no JS
+    * Operadores matemáticos em JS    
+ */
+
+        /** Tipos primitivos
+            * string - textos
+            * number - números
+            * boolean - booleano (true/false or 0 1)
+         */
+        console.log('Olá Mundo!') // serve para escrever mensagem no terminal
+        console.log(5)
+        console.log(43.76)
+        console.log(true)
+        console.log(false)
+
+        /**Variáveis 
+         * let - pegue
+         * var - variável
+        */
+
+        let mensagem = "a vida é boa"
+        console.log(mensagem)
+        mensagem = "novo texto"
+        console.log(mensagem)
+        const pi = 3.1415
+        console.log(pi)
+                /** let não pode começar com números, evitar carac especiais.*/
+        var idade = 18
+        console.log(idade)
+        var idade = 30
+        console.log(idade)
+
+        const a = 6
+        const b = a
+        
+        console.log(a)
+        console.log(b)
+
+        //soma 
+        const soma = 5 + 5.78
+        console.log(soma)
+        console.log(7 + 8 + 0.345)
+        const soma2 = soma + 3
+        console.log(soma2)
+        console.log('45'+ 5)
+        console.log('45'- 5) // mesmo sendo string o 45, o js converte para number, mas não sempre
+        
+        
+        //subtração
+        console.log(20-10)
+        console.log(20-5-3)
+
+        //Multiplicação
+        console.log(5*2)
+        let mult = soma2*4
+        console.log(mult)
+
+        //Divisão
+        let div = 20/4
+        console.log(div)
+
+        //Ordem de prioridade
+        console.log(5+3*2/2-4)// JS segue ordem matemática de prioridades
+        console.log(10/5*4/2)
+
+        //Exponenciação
+        let potenciacao = Math.pow(3,2)
+        console.log(potenciacao)
+        console.log(2 ** 2)
+
+        //Resto da divisão 
+        console.log(4 % 2)
+        console.log(15 % 7)
+        console.log(7%5)
+
+        
+    </script>
+</body>
+</html>
